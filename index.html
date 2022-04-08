@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário em JS Puro</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-left">
+            <div class="header-left">
+                <img src="./images/Turics.svg" alt="">
+            </div>
+            <div class="form-left-itens">
+                <h2>Let´s get you started</h2>
+                <form>
+                    <label for="fname">Full name</label>
+                    <input id="text" type="text" placeholder="Turics name"> 
+                    <label for="e-mail">E-mail adress</label>
+                    <input id="email" type="email"placeholder="turics@teste.com">
+                    <label for="phone">Phone number</label>
+                    <input id="form-number" type="number"placeholder="11 999999999">
+                    <label for="password">Create password</label>
+                    <input id="form-password" type="password"placeholder="***********">
+                    <input type="button" value="Sign Up" onclick="validation()">
+                </form>
+                <p>Already a user? <a href="#">Login</a></p>
+            </div>
+        </div>
+        <div class="form-right">
+            <div class="header-right">
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="text-right">
+                <h2> “Creativity is <br> intelligence <br> having fun”</h2>
+                <h5>- Albert Einstein</h5>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>   
+</body>
+</html>
